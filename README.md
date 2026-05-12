@@ -5,7 +5,7 @@ The objective of this study is to evaluate the efficiency of wireless and physic
 ---
 
 ##  Project Description
-The study focuses on measuring and analyzing **Goodput**—the speed at which useful data is received at the application layer. 
+The study focuses on measuring and analyzing **Goodput**, the speed at which useful data is received at the application layer. 
 We compare **Ethernet** (IEEE 802.3) and **Wi-Fi** (IEEE 802.11ac) using both **TCP** and **UDP** protocols to understand how protocol overhead and wireless-specific limitations (like half-duplex medium and channel congestion) affect performance.
 
 ## Tested Scenarios
@@ -22,4 +22,4 @@ We compare **Ethernet** (IEEE 802.3) and **Wi-Fi** (IEEE 802.11ac) using both **
 
 ---
 
-This project was developed, with my colleagues, as part of the **Wireless and Device-to-Device Communication Security** course at **Politecnico di Torino**.
+This project was developed as part of the **Wireless and Device-to-Device Communication Security** course at **Politecnico di Torino**, with my colleagues.
