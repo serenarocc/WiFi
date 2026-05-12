@@ -1,7 +1,5 @@
 # Performance Evaluation in Ethernet and Wi-Fi Scenarios
 
-This repository contains the project work for the **Wireless and Device-to-Device Communication Security Laboratory** (March 2026) at **Politecnico di Torino**.
-
 The objective of this study is to evaluate the efficiency of wireless and physical network links by comparing theoretical predictions with experimental results across various LAN configurations.
 
 ---
@@ -11,16 +9,16 @@ The study focuses on measuring and analyzing **Goodput**—the speed at which us
 We compare **Ethernet** (IEEE 802.3) and **Wi-Fi** (IEEE 802.11ac) using both **TCP** and **UDP** protocols to understand how protocol overhead and wireless-specific limitations (like half-duplex medium and channel congestion) affect performance.
 
 ## Tested Scenarios
-1.  [cite_start]**Both Ethernet**: Both Host A and Host B are connected via GbE cables to the router.
-2.  [cite_start]**Both Wi-Fi**: Both hosts are linked to the same wireless channel (5 GHz, Channel 60).
-3.  [cite_start]**Mixed Scenario**: Host A is connected via Ethernet, while Host B is connected via Wi-Fi.
+1.  **Both Ethernet**: Both Host A and Host B are connected via GbE cables to the router.
+2.  **Both Wi-Fi**: Both hosts are linked to the same wireless channel (5 GHz, Channel 60).
+3.  **Mixed Scenario**: Host A is connected via Ethernet, while Host B is connected via Wi-Fi.
 
 ---
 
 ## Tools Used
-* [cite_start]**iperf3**: Used to generate traffic and measure goodput fluctuations.
-* [cite_start]**Wireshark**: Used for packet analysis, monitoring TCP window scaling, RTT, and I/O graphs.
-* [cite_start]**Python**: Custom scripts were used to automate multiple test runs (10 iterations per test) and collect statistical data.
+* **iperf3**: Used to generate traffic and measure goodput fluctuations.
+* **Wireshark**: Used for packet analysis, monitoring TCP window scaling, RTT, and I/O graphs.
+* **Python**: Custom scripts were used to automate multiple test runs (10 iterations per test) and collect statistical data.
 
 ---
 
