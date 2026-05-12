@@ -10,7 +10,7 @@ We compare **Ethernet** (IEEE 802.3) and **Wi-Fi** (IEEE 802.11ac) using both **
 
 ## Tested Scenarios
 1.  **Both Ethernet**: Both Host A and Host B are connected via GbE cables to the router.
-2.  **Both Wi-Fi**: Both hosts are linked to the same wireless channel (5 GHz, Channel 60).
+2.  **Both Wi-Fi**: Both hosts are linked to the same wireless channel.
 3.  **Mixed Scenario**: Host A is connected via Ethernet, while Host B is connected via Wi-Fi.
 
 ---
