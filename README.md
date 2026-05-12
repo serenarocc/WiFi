@@ -22,5 +22,4 @@ We compare **Ethernet** (IEEE 802.3) and **Wi-Fi** (IEEE 802.11ac) using both **
 
 ---
 
-##  Academic Context
 This project was developed as part of the **Wireless and Device-to-Device Communication Security** course at **Politecnico di Torino**.
